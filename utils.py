@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 
-from load_json import sorting
-
-
 def get_five_operations(sort):
     """Возвращает пять последних операций в порядке от последней, по дате"""
     sort = sort[-5:]
